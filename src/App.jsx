@@ -1,25 +1,29 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Layout } from 'antd'
 import './App.css'
-const { Header, Footer, Content } = Layout
-
-const Context = React.createContext({
-  text: ''
-})
+import HeaderContent from './components/HeaderContent/HeaderContent'
+import FooterContent from './components/FooterContent/FooterContent'
+import LandingPage from './containers/LandingPage/LandingPage'
+import Restaurant from './containers/Restaurant/Restaurant'
+import Menu from './containers/Menu/Menu'
+const { Header, Footer } = Layout
 
 function App() {
   return (
-    <Context.Provider value={{}}>
-      <Helmet
-        htmlAttributes={{
-          lang: 'en'
-        }}
-      />{' '}
+    <Router>
       <Layout>
-        <Header> </Header> <Content> LOL </Content> <Footer> </Footer>{' '}
-      </Layout>{' '}
-    </Context.Provider>
+        <Header>
+          <HeaderContent />
+        </Header>
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/(1|2)" component={Restaurant} />
+        <Route exact path="/menu" component={Menu} />
+        <Footer style={{ textAlign: 'center' }}>
+          <FooterContent />
+        </Footer>
+      </Layout>
+    </Router>
   )
 }
 

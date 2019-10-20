@@ -1,0 +1,7 @@
+import React from 'react'
+
+const FooterContent = () => {
+  return <span>Vietnamhaket ©2019 Created by OLNDJNN</span>
+}
+
+export default FooterContent
