@@ -6,24 +6,13 @@ const Menu = props => {
     <List
       itemLayout="vertical"
       size="large"
-      dataSource={[
-        { title: 'Title', description: 'Description', content: '', href: '#' }
-      ]}
+      dataSource={props.menu}
       renderItem={item => (
         <List.Item
           key={item.title}
-          extra={
-            <img
-              width={272}
-              alt="logo"
-              src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
-            />
-          }
+          extra={<img width={272} alt={item.title} src={item.image} />}
         >
-          <List.Item.Meta
-            title={<a href={item.href}>{item.title}</a>}
-            description={item.description}
-          />
+          <List.Item.Meta title={item.title} description={item.description} />
           {item.content}
         </List.Item>
       )}
