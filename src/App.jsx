@@ -62,7 +62,10 @@ class App extends React.Component {
           <Route
             exact
             path="/(sv|en)/(briggen|barnhusgatan)/meny"
-            component={Menu}
+            render={routeProps => {
+              this.setupState(routeProps)
+              return <Menu restaurant={this.state.restaurant} />
+            }}
           />
           <Footer style={{ textAlign: 'center' }}>
             <FooterContent />

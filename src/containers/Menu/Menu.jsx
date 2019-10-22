@@ -2,8 +2,8 @@ import React from 'react'
 import { List } from 'antd'
 import Menus from '../../data/menus'
 
-const Menu = props => {
-  const menu = Menus[props.match.params[0]]
+const Menu = ({restaurant}) => {
+  const menu = Menus[restaurant]
   return (
     <List
       itemLayout="vertical"

@@ -11,14 +11,28 @@ const Restaurant = props => {
         backgroundColor: '#ffffff'
       }}
     >
-      <Carousel>
-        <div>
-          <img src={img1} alt="" />
-        </div>
-        <div>
-          <img src={img2} alt="" />
-        </div>
-      </Carousel>
+      <section>
+        <Carousel>
+          <div>
+            <img src={img1} alt="" />
+          </div>
+          <div>
+            <img src={img2} alt="" />
+          </div>
+        </Carousel>
+      </section>
+      <hr />
+      <section>
+        Kontaktinformation
+      </section>
+      <hr />
+      <section>
+        Instagram
+      </section>
+      <hr />
+      <section>
+        Om oss
+      </section>
     </Content>
   )
 }
