@@ -3,9 +3,17 @@ import backgroundImage from '../../landing-page-background.jpg'
 import RestaurantCard from '../../components/RestaurantCard/RestaurantCard'
 import { Link } from 'react-router-dom'
 import { Layout, Row, Col } from 'antd'
+import Resturants from '../../data/cards'
 const { Content } = Layout
 
-const LandingPage = props => {
+const LandingPage = ({language}) => {
+  const cards = Resturants.map(restaurant => (
+    <Col key={restaurant.title}>
+      <Link to={`/${language}${restaurant.link}`}>
+        <RestaurantCard restaurant={restaurant} />
+      </Link>
+    </Col>
+  ))
   return (
     <Content
       style={{
@@ -14,16 +22,7 @@ const LandingPage = props => {
       }}
     >
       <Row type="flex" justify="center">
-        <Col>
-          <Link to="/1">
-            <RestaurantCard />
-          </Link>
-        </Col>
-        <Col>
-          <Link to="/2">
-            <RestaurantCard />
-          </Link>
-        </Col>
+        {cards}  
       </Row>
     </Content>
   )
