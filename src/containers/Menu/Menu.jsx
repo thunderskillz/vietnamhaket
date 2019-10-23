@@ -23,7 +23,14 @@ class Menu extends React.Component {
             key={item.title}
             extra={<img width={272} alt={item.title} src={item.image} />}
           >
-            <List.Item.Meta title={item.title} description={item.description} />
+            <List.Item.Meta
+              title={`${item.title}${
+                item.shortDescription.length > 0
+                  ? ` - ${item.shortDescription}`
+                  : ''
+              }`}
+              description={item.longDescription}
+            />
           </List.Item>
         )}
       />
