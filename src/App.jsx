@@ -1,5 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom'
 import { Layout } from 'antd'
 import './App.css'
 import HeaderContent from './components/HeaderContent/HeaderContent'
@@ -32,45 +37,73 @@ class App extends React.Component {
   }
   setupState(routeProps) {
     const languageMatch = routeProps.match.params[0]
-    if(typeof languageMatch !== 'undefined' && this.state.language !== languageMatch) {
+    if (
+      typeof languageMatch !== 'undefined' &&
+      this.state.language !== languageMatch
+    ) {
       this.changeLanguage(languageMatch)
     }
     const resturantMatch = routeProps.match.params[1]
-    if(typeof resturantMatch !== 'undefined' && this.state.restaurant !== resturantMatch) {
+    if (
+      typeof resturantMatch !== 'undefined' &&
+      this.state.restaurant !== resturantMatch
+    ) {
       this.changeRestaurant(resturantMatch)
     }
   }
   render() {
+    const LandingPageContainer = () => (
+      <Layout>
+        <Route
+          exact
+          path="/(sv|en)"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return <LandingPage language={this.state.language} />
+          }}
+        />
+      </Layout>
+    )
+
+    const DefaultContainer = () => (
+      <Layout>
+        <Header>
+          <HeaderContent
+            language={this.state.language}
+            restaurant={this.state.restaurant}
+            changeLanguage={this.changeLanguage}
+          />
+        </Header>
+        <Route
+          exact
+          path="/(sv|en)/(briggen|barnhusgatan)"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return <Restaurant restaurant={this.state.restaurant} />
+          }}
+        />
+        <Route
+          exact
+          path="/(sv|en)/(briggen|barnhusgatan)/meny"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return <Menu restaurant={this.state.restaurant} />
+          }}
+        />
+        <Footer style={{ textAlign: 'center' }}>
+          <FooterContent />
+        </Footer>
+      </Layout>
+    )
     return (
       <Router>
-        <Layout>
-          <Header>
-            <HeaderContent language={this.state.language} restaurant={this.state.restaurant} changeLanguage={this.changeLanguage} />
-          </Header>
+        <Switch>
           <Route exact path="/">
             <Redirect to={`/${this.state.language}`} />
           </Route>
-          <Route exact path="/(sv|en)" render={routeProps => {
-            this.setupState(routeProps)
-            return <LandingPage language={this.state.language} />
-          }} />
-            
-          <Route exact path="/(sv|en)/(briggen|barnhusgatan)" render={routeProps => {
-            this.setupState(routeProps)
-            return <Restaurant restaurant={this.state.restaurant} />
-          }} />
-          <Route
-            exact
-            path="/(sv|en)/(briggen|barnhusgatan)/meny"
-            render={routeProps => {
-              this.setupState(routeProps)
-              return <Menu restaurant={this.state.restaurant} />
-            }}
-          />
-          <Footer style={{ textAlign: 'center' }}>
-            <FooterContent />
-          </Footer>
-        </Layout>
+          <Route exact path="/(sv|en)" component={LandingPageContainer} />
+          <Route component={DefaultContainer} />
+        </Switch>
       </Router>
     )
   }
