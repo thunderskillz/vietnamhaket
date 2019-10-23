@@ -1,0 +1,18 @@
+{
+  "sv": {
+    "recommended": "Rekommenderas",
+    "gluten": "Gluten",
+    "nuts": "Nötter",
+    "popular": "Populär",
+    "cold": "Kall",
+    "new": "Ny"
+  },
+  "en": {
+    "recommended": "Recommended",
+    "gluten": "Gluten",
+    "nuts": "Nuts",
+    "popular": "Popular",
+    "cold": "Cold",
+    "new": "New"
+  }
+}
