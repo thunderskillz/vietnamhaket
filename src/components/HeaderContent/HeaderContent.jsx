@@ -5,14 +5,13 @@ import { Menu } from 'antd'
 import HeaderLinks from '../../data/HeaderLinks'
 
 const HeaderContent = ({ language, restaurant }) => {
+  const baseURL = `/${language}/${restaurant}`
   const headerLinksText = HeaderLinks[language]
   let menuMenuItem
   if (restaurant.length > 0) {
     menuMenuItem = (
       <Menu.Item>
-        <Link to={`/${language}/${restaurant}/meny`}>
-          {headerLinksText.menu}
-        </Link>
+        <Link to={`${baseURL}/meny`}>{headerLinksText.menu}</Link>
       </Menu.Item>
     )
   }
@@ -20,13 +19,17 @@ const HeaderContent = ({ language, restaurant }) => {
     <Menu theme="dark" mode="horizontal" style={{ lineHeight: '64px' }}>
       {menuMenuItem}
       <Menu.Item>
-        <HashLink to="#contactUs">{headerLinksText.contactUs}</HashLink>
+        <HashLink to={`${baseURL}#contactUs`}>
+          {headerLinksText.contactUs}
+        </HashLink>
       </Menu.Item>
       <Menu.Item>
-        <HashLink to="#instagram">{headerLinksText.instagram}</HashLink>
+        <HashLink to={`${baseURL}#instagram`}>
+          {headerLinksText.instagram}
+        </HashLink>
       </Menu.Item>
       <Menu.Item>
-        <HashLink to="#aboutUs">{headerLinksText.aboutUs}</HashLink>
+        <HashLink to={`${baseURL}#aboutUs`}>{headerLinksText.aboutUs}</HashLink>
       </Menu.Item>
     </Menu>
   )
