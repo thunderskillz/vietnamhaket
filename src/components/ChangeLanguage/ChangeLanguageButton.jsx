@@ -18,7 +18,6 @@ class ChangeLanguageButton extends React.Component {
     }
   }
   componentDidUpdate(prevProps) {
-    console.log('TEST')
     if (prevProps.selectedLanguage !== this.props.selectedLanguage) {
       if (
         !this.state.selected &&
