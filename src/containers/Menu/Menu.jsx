@@ -1,6 +1,6 @@
 import React from 'react'
 import { List } from 'antd'
-import Menus from '../../data/menus'
+import Menus from '../../data/Menus'
 
 class Menu extends React.Component {
   componentDidUpdate(prevProps) {
@@ -12,7 +12,7 @@ class Menu extends React.Component {
     this.props.update(this.props.routeProps)
   }
   render() {
-    const menu = Menus[this.props.restaurant]
+    const menu = Menus[this.props.language][this.props.restaurant]
     return (
       <List
         itemLayout="vertical"
@@ -23,10 +23,7 @@ class Menu extends React.Component {
             key={item.title}
             extra={<img width={272} alt={item.title} src={item.image} />}
           >
-            <List.Item.Meta
-              title={item.title}
-              description={item.description[this.props.language]}
-            />
+            <List.Item.Meta title={item.title} description={item.description} />
           </List.Item>
         )}
       />

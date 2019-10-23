@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../logo.png'
 import { Link } from 'react-router-dom'
 import { Layout, Row, Col, Button } from 'antd'
-import Restaurants from '../../data/cards'
+import LandingPageInformation from '../../data/LandingPageInformation'
 const { Content } = Layout
 
 class LandingPage extends React.Component {
@@ -15,7 +15,9 @@ class LandingPage extends React.Component {
     this.props.update(this.props.routeProps)
   }
   render() {
-    const restaurants = Restaurants.map(restaurant => (
+    const restaurants = LandingPageInformation[
+      this.props.language
+    ].restaurants.map(restaurant => (
       <Col key={restaurant.title} span={24}>
         <Link to={`/${this.props.language}${restaurant.link}`}>
           <Button type="primary" size="large" block>

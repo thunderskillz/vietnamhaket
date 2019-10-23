@@ -15,12 +15,13 @@ class Restaurant extends React.Component {
     this.props.update(this.props.routeProps)
   }
   render() {
-    const restaurantInformation = RestaurantInformation[this.props.restaurant]
+    const restaurantInformation =
+      RestaurantInformation[this.props.language][this.props.restaurant]
     let contactInformation, instagram, aboutUs
     if (restaurantInformation) {
-      contactInformation = restaurantInformation.contactUs[this.props.language]
-      instagram = restaurantInformation.instagram[this.props.language]
-      aboutUs = restaurantInformation.aboutUs[this.props.language]
+      contactInformation = restaurantInformation.contactUs
+      instagram = restaurantInformation.instagram
+      aboutUs = restaurantInformation.aboutUs
     }
     return (
       <Content
