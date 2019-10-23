@@ -1,9 +1,8 @@
 import React from 'react'
-import backgroundImage from '../../landing-page-background.jpg'
-import RestaurantCard from '../../components/RestaurantCard/RestaurantCard'
+import logo from '../../logo.png'
 import { Link } from 'react-router-dom'
-import { Layout, Row, Col } from 'antd'
-import Resturants from '../../data/cards'
+import { Layout, Row, Col, Button } from 'antd'
+import Restaurants from '../../data/cards'
 const { Content } = Layout
 
 class LandingPage extends React.Component {
@@ -16,22 +15,26 @@ class LandingPage extends React.Component {
     this.props.update(this.props.routeProps)
   }
   render() {
-    const cards = Resturants.map(restaurant => (
-      <Col key={restaurant.title}>
+    const restaurants = Restaurants.map(restaurant => (
+      <Col key={restaurant.title} span={24}>
         <Link to={`/${this.props.language}${restaurant.link}`}>
-          <RestaurantCard restaurant={restaurant} />
+          <Button type="primary" size="large" block>
+            {restaurant.title}
+          </Button>
         </Link>
       </Col>
     ))
     return (
-      <Content
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          padding: '50px 0'
-        }}
-      >
+      <Content>
         <Row type="flex" justify="center">
-          {cards}
+          <Col>
+            <div>
+              <img src={logo} alt="logo" />
+            </div>
+          </Col>
+        </Row>
+        <Row type="flex" justify="center">
+          {restaurants}
         </Row>
       </Content>
     )

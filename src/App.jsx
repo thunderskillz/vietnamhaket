@@ -1,5 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom'
 import { Layout } from 'antd'
 import './App.css'
 import HeaderContent from './components/HeaderContent/HeaderContent'
@@ -47,65 +52,78 @@ class App extends React.Component {
     }
   }
   render() {
+    const LandingPageContainer = () => (
+      <Layout>
+        <Route
+          exact
+          path="/(sv|en)"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return (
+              <LandingPage
+                update={this.setupState}
+                routeProps={routeProps}
+                language={this.state.language}
+              />
+            )
+          }}
+        />
+      </Layout>
+    )
+
+    const DefaultContainer = () => (
+      <Layout>
+        <Header>
+          <HeaderContent
+            language={this.state.language}
+            restaurant={this.state.restaurant}
+            changeLanguage={this.changeLanguage}
+          />
+        </Header>
+        <Route
+          exact
+          path="/(sv|en)/(briggen|barnhusgatan)"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return (
+              <Restaurant
+                update={this.setupState}
+                routeProps={routeProps}
+                language={this.state.language}
+                restaurant={this.state.restaurant}
+              />
+            )
+          }}
+        />
+        <Route
+          exact
+          path="/(sv|en)/(briggen|barnhusgatan)/meny"
+          render={routeProps => {
+            this.setupState(routeProps)
+            return (
+              <Menu
+                update={this.setupState}
+                routeProps={routeProps}
+                language={this.state.language}
+                restaurant={this.state.restaurant}
+              />
+            )
+          }}
+        />
+        <Footer style={{ textAlign: 'center' }}>
+          <FooterContent />
+        </Footer>
+      </Layout>
+    )
     return (
       <Router>
-        <Layout>
-          <Header>
-            <HeaderContent
-              language={this.state.language}
-              restaurant={this.state.restaurant}
-              changeLanguage={this.changeLanguage}
-            />
-          </Header>
+        <Switch>
           <Route exact path="/">
             <Redirect to={`/${this.state.language}`} />
           </Route>
-          <Route
-            exact
-            path="/(sv|en)"
-            render={routeProps => {
-              return (
-                <LandingPage
-                  update={this.setupState}
-                  routeProps={routeProps}
-                  language={this.state.language}
-                />
-              )
-            }}
-          />
-
-          <Route
-            exact
-            path="/(sv|en)/(briggen|barnhusgatan)"
-            render={routeProps => {
-              return (
-                <Restaurant
-                  update={this.setupState}
-                  routeProps={routeProps}
-                  language={this.state.language}
-                  restaurant={this.state.restaurant}
-                />
-              )
-            }}
-          />
-          <Route
-            exact
-            path="/(sv|en)/(briggen|barnhusgatan)/meny"
-            render={routeProps => {
-              return (
-                <Menu
-                  update={this.setupState}
-                  routeProps={routeProps}
-                  language={this.state.language}
-                  restaurant={this.state.restaurant}
-                />
-              )
-            }}
-          />
-          <Footer style={{ textAlign: 'center' }}>
-            <FooterContent />
-          </Footer>
-        </Layout>
+          <Route exact path="/(sv|en)" component={LandingPageContainer} />
+          <Route component={DefaultContainer} />
+        </Switch>
       </Router>
     )
   }
