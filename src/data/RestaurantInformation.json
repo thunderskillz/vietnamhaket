@@ -1,0 +1,30 @@
+{
+  "briggen": {
+    "contactUs": {
+      "sv": "Kontaktinformation - Vietnamhaket Saluhallen Briggen:",
+      "en": "Contact information - Vietnamhaket Saluhallen Briggen:"
+    },
+    "instagram": {
+      "sv": "Detta är vår instagram:",
+      "en": "This is our Instagram:"
+    },
+    "aboutUs": {
+      "sv": "Om oss",
+      "en": "about us"
+    }
+  },
+  "barnhusgatan": {
+    "contactUs": {
+      "sv": "Kontaktinformation - Vietnamhaket Barnhusgatan:",
+      "en": "Contact information - Vietnamhaket Barnhusgatan:"
+    },
+    "instagram": {
+      "sv": "Detta är vår instagram:",
+      "en": "This is our Instagram:"
+    },
+    "aboutUs": {
+      "sv": "Om oss",
+      "en": "about us"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import { Menu } from 'antd'
 
 const HeaderContent = ({language, restaurant, changeLanguage}) => {
@@ -14,10 +15,22 @@ const HeaderContent = ({language, restaurant, changeLanguage}) => {
   return (
     <Menu theme="dark" mode="horizontal" style={{ lineHeight: '64px' }}>
       {menuMenuItem}
-      <Menu.Item>Kontakt</Menu.Item>
-      <Menu.Item>Instagram</Menu.Item>
-      <Menu.Item>Om oss</Menu.Item>
-      <Menu.Item>Språk</Menu.Item>
+        <Menu.Item>
+          <HashLink to="#contactUs">
+            Kontakt
+          </HashLink>
+        </Menu.Item>
+        <Menu.Item>
+          <HashLink to="#instagram">
+            Instagram
+          </HashLink>
+        </Menu.Item>
+        <Menu.Item>
+          <HashLink to="#aboutUs">
+            Om oss
+          </HashLink>
+        </Menu.Item>
+        <Menu.Item>Språk</Menu.Item>
     </Menu>
   )
 }

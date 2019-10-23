@@ -3,7 +3,10 @@
     {
       "image": "https://scontent-arn2-1.cdninstagram.com/vp/c6d79b20f4a4a9a7a97b21cf3e3f3764/5E2EF00B/t51.2885-15/sh0.08/e35/s750x750/66038562_149004959497474_630047670185324958_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
       "title": "Pho",
-      "description": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
+      "description": {
+        "sv": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
+        "en": "Smoking hot noodle soup with bean sprouts, thinly sliced onions, spring onions, fresh cilantro, chili and lime."
+      },
       "protein": ["Biff", "Kyckling", "Tofu"],
       "price": "110 kr"
     },
@@ -11,8 +14,10 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/3e0f2e536427f6bbb55ec33e8a9d2199/5E60A67B/t51.2885-15/e35/s1080x1080/66648321_1172102333242382_7184225035297344662_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102",
       "title": "Cha Nem",
-      "description":
-        "Hemmagjorda friterade vårrullar med fläskkarré, färsk koriander och mynta på en bädd av nudelsallad och fisksås.",
+      "description": {
+        "sv": "Hemmagjorda friterade vårrullar med fläskkarré, färsk koriander och mynta på en bädd av nudelsallad och fisksås.",
+        "en": "Home made fried spring rolls with pork sirloin, fresh cilantro and mint leaves on a bed of noodle salad and fish sauce."
+      },
       "protein": [],
       "price": "110 kr"
     },
@@ -20,8 +25,10 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/c2c64dfe2f5459fff2ed83599499c692/5E474F66/t51.2885-15/sh0.08/e35/s750x750/66659124_350569382554928_3350378203193400033_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=108",
       "title": "Bun Bo Xao",
-      "description":
-        "Vietnamesisk nudelsallad med rostad lök, krossadejordnötter, färsk koriander, mynta och fisksås.",
+      "description": {
+        "sv": "Vietnamesisk nudelsallad med rostad lök, krossade jordnötter, färsk koriander, mynta och fisksås.",
+        "en": "Vietnamese noodle salad with roasted onions, crushed peanuts, fresh cilantro, mint leaves and fish sauce."
+      },
       "protein": ["Biff", "Kyckling", "Tofu"],
       "price": "110 kr"
     },
@@ -29,9 +36,122 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/545d4b4dbea0d2c24922f966bd82ae3a/5E5AB0E7/t51.2885-15/sh0.08/e35/s750x750/67700286_654938664988858_7538704245811219262_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
       "title": "Banh Xep",
-      "description":
-        "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
+      "description": {
+        "sv": "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
+        "en": "Home made vietnamese dumpling. Served with salad, soy sauce and sweet chili sauce. 8 pcs."
+      },
       "protein": ["Fläsk & Kyckling", "Kyckling", "Räkor", "Tofu"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/55758fe1e29f5bdd2ce3237b2ecd1ea9/5E5F1581/t51.2885-15/e35/s1080x1080/66423804_780755918993700_6296716837581254580_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=100",
+      "title": "Pho Xao",
+      "description": {
+        "sv": "Wokade risnudlar, färska grönsaker, rostad lök.",
+        "en": "Fried rice noodles, fresh vegetables, roasted onions."
+      },
+      "protein": ["Biff", "Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/fb150d9ead81399d71589410985ec928/5E41D4F9/t51.2885-15/e35/s1080x1080/66849479_164429704695124_2962791534603008642_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=104",
+      "title": "Nem Cuon",
+      "description": {
+        "sv": "Färska vårrullar med risnudlar, sallad, ägg, räkor, fläskkarré och färska örter lindat i rispapper. Serveras med vår hemmagjorda fisksås. 3 st.",
+        "en": "Fresh spring rolls with rice noodles, salad, eggs, shrimps, pork sirloin and fresh herbs wrapped in rice paper. Served with our home made fish sauce. 3 pcs."
+      },
+      "protein": ["Fläsk & Räkor", "Räkor", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/eac03c319788770a333e6a5db1677f78/5E58400A/t51.2885-15/e35/s1080x1080/67817578_213222232973531_7314439979949666723_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=111",
+      "title": "Banh Xeo",
+      "description": {
+        "sv": "Krispig vietnamesisk pannkaka med wokade grönsaker. Serveras med vår hemmagjorda fisksås.",
+        "en": "Crispy vietnamese pancake with fired vegetables. Served with our home mande fish sauce."
+      },
+      "protein": ["Fläskkarré", "Kyckling", "Räkor", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/8cebeaeeefe9534605bcd3a33bee1614/5E45DEBE/t51.2885-15/e35/s1080x1080/67521348_2413455502313026_8234799423600943080_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
+      "title": "Xoi Ga",
+      "description": {
+        "sv": "Vietnamesiskt ångkokat klibbris med kyckling, jordnötter, rostad lök och riven kokos.",
+        "en": "Vietnamese steamed sticky rice with chicken, peanuts, roasted onions and grated coconut."
+      },
+      "protein": ["Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/a67b6e65ab7829bfe5115a54a0fc4de6/5E2E6F66/t51.2885-15/e35/s1080x1080/67983939_427067011499495_6855170155754553178_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=111",
+      "title": "Com Rang",
+      "description": {
+        "sv": "Stekt ris, currykyckling, grönsaker och rostad lök.",
+        "en": "Fried rice, curry chicken, vegetables and roasted onions."
+      },
+      "protein": ["Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/e7988d693db26f1f1816a1d96fbc31f8/5E2C95CB/t51.2885-15/e35/s1080x1080/69206582_139328557309410_4228388801325925135_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106",
+      "title": "Bun Cha",
+      "description": {
+        "sv": "Grillade fläskfärsbiffar och sauterat fläskkött med nudelsallad, färsk koriander, mynta, rostad lök, chili och vår hemmagjorda fisksås.",
+        "en": "Grilled minced pork steaks and sautéed pork with noodle salad, fresh cilantro, mint leaves, roasted onions, chili and our home made fish sauce."
+      },
+      "protein": [],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/0ce00c92ffebc2d2f46fd49e1403e73e/5E446A21/t51.2885-15/e35/s1080x1080/68914796_603894526809773_19053196927058000_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=105",
+      "title": "Mien xao",
+      "description": {
+        "sv": "Wokade glasnudlar, färska grönsaker och rostad lök.",
+        "en": "Fried glass noodles, fresh vegetables and roasted onions."
+      },
+        
+      "protein": ["Räkor", "Biff", "Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/af09d750ac3fa0794dc814cfdc568fae/5E42B36B/t51.2885-15/e35/s1080x1080/69688569_2418019395143695_7163503451669526155_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107",
+      "title": "Bun Ca",
+      "description": {
+        "sv": "Grillad pangasiusfiskfilé, nudelsallad, dill, jordnötter och vår hemmagjorda fisksås.",
+        "en": "Grilled pangasius fish fillet, noodle salad, dill, peanuts and our home made fish sauce."
+      },
+      "protein": [],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/ae7a85c3e5c92de8402faa65744c897d/5E5B988A/t51.2885-15/e35/s1080x1080/67641037_123142522367302_3919821297878397151_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
+      "title": "Banh Mi",
+      "description": {
+        "sv": "Vietnamesisk baguette, sallad, gurka, chilisås, rostad lök, färsk koriander.",
+        "en": "Vietnamese baguette, salad, cucumber, chili sauce, roasted onions, fresh cilantro."
+      },
+      "protein": ["Fläsk", "Kyckling", "Vegetarisk"],
+      "price": "90 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/0d61c315edff0e1c30c9a08263f53362/5E610E92/t51.2885-15/e35/s1080x1080/69133089_156806495514056_1007429354404147566_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=108",
+      "title": "Com Thi Nuong",
+      "description": {
+        "sv": "Ris med sallad och stekt ankbröst/fläskkarré",
+        "en": "Rice with salad and fried duck breast/pork sirloin."
+      },
+      "protein": ["Ankbröst", "Fläskkarré"],
       "price": "110 kr"
     }
   ],
@@ -39,7 +159,10 @@
     {
       "image": "https://scontent-arn2-1.cdninstagram.com/vp/c6d79b20f4a4a9a7a97b21cf3e3f3764/5E2EF00B/t51.2885-15/sh0.08/e35/s750x750/66038562_149004959497474_630047670185324958_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
       "title": "Pho",
-      "description": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
+      "description": {
+        "sv": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
+        "en": "Smoking hot noodle soup with bean sprouts, thinly sliced onions, spring onions, fresh cilantro, chili and lime."
+      },
       "protein": ["Biff", "Kyckling", "Tofu"],
       "price": "110 kr"
     },
@@ -47,8 +170,10 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/3e0f2e536427f6bbb55ec33e8a9d2199/5E60A67B/t51.2885-15/e35/s1080x1080/66648321_1172102333242382_7184225035297344662_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102",
       "title": "Cha Nem",
-      "description":
-        "Hemmagjorda friterade vårrullar med fläskkarré, färsk koriander och mynta på en bädd av nudelsallad och fisksås.",
+      "description": {
+        "sv": "Hemmagjorda friterade vårrullar med fläskkarré, färsk koriander och mynta på en bädd av nudelsallad och fisksås.",
+        "en": "Home made fried spring rolls with pork sirloin, fresh cilantro and mint leaves on a bed of noodle salad and fish sauce."
+      },
       "protein": [],
       "price": "110 kr"
     },
@@ -56,8 +181,10 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/c2c64dfe2f5459fff2ed83599499c692/5E474F66/t51.2885-15/sh0.08/e35/s750x750/66659124_350569382554928_3350378203193400033_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=108",
       "title": "Bun Bo Xao",
-      "description":
-        "Vietnamesisk nudelsallad med rostad lök, krossadejordnötter, färsk koriander, mynta och fisksås.",
+      "description": {
+        "sv": "Vietnamesisk nudelsallad med rostad lök, krossade jordnötter, färsk koriander, mynta och fisksås.",
+        "en": "Vietnamese noodle salad with roasted onions, crushed peanuts, fresh cilantro, mint leaves and fish sauce."
+      },
       "protein": ["Biff", "Kyckling", "Tofu"],
       "price": "110 kr"
     },
@@ -65,9 +192,122 @@
       "image":
         "https://scontent-arn2-1.cdninstagram.com/vp/545d4b4dbea0d2c24922f966bd82ae3a/5E5AB0E7/t51.2885-15/sh0.08/e35/s750x750/67700286_654938664988858_7538704245811219262_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
       "title": "Banh Xep",
-      "description":
-        "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
+      "description": {
+        "sv": "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
+        "en": "Home made vietnamese dumpling. Served with salad, soy sauce and sweet chili sauce. 8 pcs."
+      },
       "protein": ["Fläsk & Kyckling", "Kyckling", "Räkor", "Tofu"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/55758fe1e29f5bdd2ce3237b2ecd1ea9/5E5F1581/t51.2885-15/e35/s1080x1080/66423804_780755918993700_6296716837581254580_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=100",
+      "title": "Pho Xao",
+      "description": {
+        "sv": "Wokade risnudlar, färska grönsaker, rostad lök.",
+        "en": "Fried rice noodles, fresh vegetables, roasted onions."
+      },
+      "protein": ["Biff", "Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/fb150d9ead81399d71589410985ec928/5E41D4F9/t51.2885-15/e35/s1080x1080/66849479_164429704695124_2962791534603008642_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=104",
+      "title": "Nem Cuon",
+      "description": {
+        "sv": "Färska vårrullar med risnudlar, sallad, ägg, räkor, fläskkarré och färska örter lindat i rispapper. Serveras med vår hemmagjorda fisksås. 3 st.",
+        "en": "Fresh spring rolls with rice noodles, salad, eggs, shrimps, pork sirloin and fresh herbs wrapped in rice paper. Served with our home made fish sauce. 3 pcs."
+      },
+      "protein": ["Fläsk & Räkor", "Räkor", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/eac03c319788770a333e6a5db1677f78/5E58400A/t51.2885-15/e35/s1080x1080/67817578_213222232973531_7314439979949666723_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=111",
+      "title": "Banh Xeo",
+      "description": {
+        "sv": "Krispig vietnamesisk pannkaka med wokade grönsaker. Serveras med vår hemmagjorda fisksås.",
+        "en": "Crispy vietnamese pancake with fired vegetables. Served with our home mande fish sauce."
+      },
+      "protein": ["Fläskkarré", "Kyckling", "Räkor", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/8cebeaeeefe9534605bcd3a33bee1614/5E45DEBE/t51.2885-15/e35/s1080x1080/67521348_2413455502313026_8234799423600943080_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
+      "title": "Xoi Ga",
+      "description": {
+        "sv": "Vietnamesiskt ångkokat klibbris med kyckling, jordnötter, rostad lök och riven kokos.",
+        "en": "Vietnamese steamed sticky rice with chicken, peanuts, roasted onions and grated coconut."
+      },
+      "protein": ["Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/a67b6e65ab7829bfe5115a54a0fc4de6/5E2E6F66/t51.2885-15/e35/s1080x1080/67983939_427067011499495_6855170155754553178_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=111",
+      "title": "Com Rang",
+      "description": {
+        "sv": "Stekt ris, currykyckling, grönsaker och rostad lök.",
+        "en": "Fried rice, curry chicken, vegetables and roasted onions."
+      },
+      "protein": ["Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/e7988d693db26f1f1816a1d96fbc31f8/5E2C95CB/t51.2885-15/e35/s1080x1080/69206582_139328557309410_4228388801325925135_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106",
+      "title": "Bun Cha",
+      "description": {
+        "sv": "Grillade fläskfärsbiffar och sauterat fläskkött med nudelsallad, färsk koriander, mynta, rostad lök, chili och vår hemmagjorda fisksås.",
+        "en": "Grilled minced pork steaks and sautéed pork with noodle salad, fresh cilantro, mint leaves, roasted onions, chili and our home made fish sauce."
+      },
+      "protein": [],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/0ce00c92ffebc2d2f46fd49e1403e73e/5E446A21/t51.2885-15/e35/s1080x1080/68914796_603894526809773_19053196927058000_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=105",
+      "title": "Mien xao",
+      "description": {
+        "sv": "Wokade glasnudlar, färska grönsaker och rostad lök.",
+        "en": "Fried glass noodles, fresh vegetables and roasted onions."
+      },
+        
+      "protein": ["Räkor", "Biff", "Kyckling", "Vegetarisk"],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/af09d750ac3fa0794dc814cfdc568fae/5E42B36B/t51.2885-15/e35/s1080x1080/69688569_2418019395143695_7163503451669526155_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107",
+      "title": "Bun Ca",
+      "description": {
+        "sv": "Grillad pangasiusfiskfilé, nudelsallad, dill, jordnötter och vår hemmagjorda fisksås.",
+        "en": "Grilled pangasius fish fillet, noodle salad, dill, peanuts and our home made fish sauce."
+      },
+      "protein": [],
+      "price": "110 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/ae7a85c3e5c92de8402faa65744c897d/5E5B988A/t51.2885-15/e35/s1080x1080/67641037_123142522367302_3919821297878397151_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110",
+      "title": "Banh Mi",
+      "description": {
+        "sv": "Vietnamesisk baguette, sallad, gurka, chilisås, rostad lök, färsk koriander.",
+        "en": "Vietnamese baguette, salad, cucumber, chili sauce, roasted onions, fresh cilantro."
+      },
+      "protein": ["Fläsk", "Kyckling", "Vegetarisk"],
+      "price": "90 kr"
+    },
+    {
+      "image":
+        "https://scontent-arn2-1.cdninstagram.com/vp/0d61c315edff0e1c30c9a08263f53362/5E610E92/t51.2885-15/e35/s1080x1080/69133089_156806495514056_1007429354404147566_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=108",
+      "title": "Com Thi Nuong",
+      "description": {
+        "sv": "Ris med sallad och stekt ankbröst/fläskkarré",
+        "en": "Rice with salad and fried duck breast/pork sirloin."
+      },
+      "protein": ["Ankbröst", "Fläskkarré"],
       "price": "110 kr"
     }
   ]
