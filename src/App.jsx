@@ -1,123 +1,44 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Redirect,
-  Switch
-} from 'react-router-dom'
-import { Layout } from 'antd'
+import { Router, Route, Redirect, Switch } from 'react-router-dom'
+import history from './history'
 import './App.css'
-import HeaderContent from './components/HeaderContent/HeaderContent'
-import FooterContent from './components/FooterContent/FooterContent'
 import LandingPage from './containers/LandingPage/LandingPage'
-import Restaurant from './containers/Restaurant/Restaurant'
-import Menu from './containers/Menu/Menu'
-import ChangeLanguage from './components/ChangeLanguage/ChangeLanguage'
 import Languages from './data/Languages'
 import Restaurants from './data/Restaurants'
-const { Header, Footer } = Layout
+import DefaultPage from './containers/DefaultPage/DefaultPage'
 
 class App extends React.Component {
   constructor(props) {
     super(props)
+    const pathParameters = window.location.pathname.split('/')
+    const language = pathParameters[1].length === 0 ? 'sv' : pathParameters[1]
     this.state = {
-      language: 'sv',
-      restaurant: ''
+      language: language,
+      restaurant: pathParameters[2]
     }
-    this.changeLanguage = this.changeLanguage.bind(this)
-    this.changeRestaurant = this.changeRestaurant.bind(this)
-    this.setupState = this.setupState.bind(this)
+    this.setLanguage = this.setLanguage.bind(this)
+    this.setRestaurant = this.setRestaurant.bind(this)
   }
-  changeLanguage(language) {
+  setLanguage(language) {
+    const languagesRegex = new RegExp(`/(${Languages.join('|')})`)
+    history.push(
+      `/${window.location.pathname.replace(languagesRegex, language)}`
+    )
     this.setState({
       language: language
     })
   }
-  changeRestaurant(restaurant) {
+  setRestaurant(restaurant) {
+    history.push(`/${this.state.language}/${restaurant}`)
     this.setState({
       restaurant: restaurant
     })
   }
-  setupState(routeProps) {
-    const languageMatch = routeProps.match.params[0]
-    if (
-      typeof languageMatch !== 'undefined' &&
-      this.state.language !== languageMatch
-    ) {
-      this.changeLanguage(languageMatch)
-    }
-    const restaurantMatch = routeProps.match.params[1]
-    if (
-      typeof restaurantMatch !== 'undefined' &&
-      this.state.restaurant !== restaurantMatch
-    ) {
-      this.changeRestaurant(restaurantMatch)
-    }
-  }
   render() {
     const languagesURLPath = `(${Languages.join('|')})`
     const restaurantsURLPath = `(${Restaurants.join('|')})`
-    const LandingPageContainer = props => (
-      <Layout>
-        <ChangeLanguage
-          history={props.history}
-          selectedLanguage={this.state.language}
-        />
-        <LandingPage
-          update={this.setupState}
-          routeProps={props}
-          language={this.state.language}
-        />
-      </Layout>
-    )
-
-    const DefaultContainer = props => (
-      <Layout>
-        <ChangeLanguage
-          history={props.history}
-          selectedLanguage={this.state.language}
-        />
-        <Header>
-          <HeaderContent
-            language={this.state.language}
-            restaurant={this.state.restaurant}
-          />
-        </Header>
-        <Route
-          exact
-          path={`/${languagesURLPath}/${restaurantsURLPath}`}
-          render={routeProps => {
-            return (
-              <Restaurant
-                update={this.setupState}
-                routeProps={routeProps}
-                language={this.state.language}
-                restaurant={this.state.restaurant}
-              />
-            )
-          }}
-        />
-        <Route
-          exact
-          path={`/${languagesURLPath}/${restaurantsURLPath}/meny`}
-          render={routeProps => {
-            return (
-              <Menu
-                update={this.setupState}
-                routeProps={routeProps}
-                language={this.state.language}
-                restaurant={this.state.restaurant}
-              />
-            )
-          }}
-        />
-        <Footer style={{ textAlign: 'center' }}>
-          <FooterContent />
-        </Footer>
-      </Layout>
-    )
     return (
-      <Router>
+      <Router history={history}>
         <Switch>
           <Route exact path="/">
             <Redirect to={`/${this.state.language}`} />
@@ -125,9 +46,25 @@ class App extends React.Component {
           <Route
             exact
             path={`/${languagesURLPath}`}
-            component={LandingPageContainer}
+            render={() => (
+              <LandingPage
+                language={this.state.language}
+                setLanguage={this.setLanguage}
+                setRestaurant={this.setRestaurant}
+              />
+            )}
           />
-          <Route component={DefaultContainer} />
+          <Route
+            path={`/${languagesURLPath}/${restaurantsURLPath}`}
+            render={() => (
+              <DefaultPage
+                language={this.state.language}
+                setLanguage={this.setLanguage}
+                restaurant={this.state.restaurant}
+                setRestaurant={this.setRestaurant}
+              />
+            )}
+          />
         </Switch>
       </Router>
     )

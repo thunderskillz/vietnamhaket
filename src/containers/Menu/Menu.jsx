@@ -1,39 +1,34 @@
 import React from 'react'
-import { List } from 'antd'
+import { Card, Col, Row } from 'antd'
 import Menus from '../../data/Menus'
+import Meta from 'antd/lib/card/Meta'
 
 class Menu extends React.Component {
-  componentDidUpdate(prevProps) {
-    if (prevProps.routeProps !== this.props.routeProps) {
-      this.props.update(this.props.routeProps)
-    }
-  }
-  componentDidMount() {
-    this.props.update(this.props.routeProps)
-  }
   render() {
     const menu = Menus[this.props.language][this.props.restaurant]
+    const menuItems = menu.map(item => (
+      <Col xs={24} sm={12} md={8} xl={6} xxl={4}>
+        <Card
+          key={item.title}
+          style={{ height: '100%' }}
+          bordered={false}
+          cover={<img alt={item.title} src={item.image} />}
+        >
+          <Meta
+            title={`${item.title}${
+              item.shortDescription.length > 0
+                ? ` - ${item.shortDescription}`
+                : ''
+            }`}
+            description={item.longDescription}
+          />
+        </Card>
+      </Col>
+    ))
     return (
-      <List
-        itemLayout="vertical"
-        size="large"
-        dataSource={menu}
-        renderItem={item => (
-          <List.Item
-            key={item.title}
-            extra={<img width={272} alt={item.title} src={item.image} />}
-          >
-            <List.Item.Meta
-              title={`${item.title}${
-                item.shortDescription.length > 0
-                  ? ` - ${item.shortDescription}`
-                  : ''
-              }`}
-              description={item.longDescription}
-            />
-          </List.Item>
-        )}
-      />
+      <Row type="flex" gutter={[16, 16]}>
+        {menuItems}
+      </Row>
     )
   }
 }

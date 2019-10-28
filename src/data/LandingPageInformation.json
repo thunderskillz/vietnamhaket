@@ -5,13 +5,13 @@
         "title": "Vietnamhaket Saluhallen Briggen",
         "openingHours": "måndag-söndag: 11:00–18:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-        "link": "/briggen"
+        "key": "briggen"
       },
       {
         "title": "Vietnamhaket Barnhusgatan",
         "openingHours": "måndag-söndag: 11:00-21:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-        "link": "/barnhusgatan"
+        "key": "barnhusgatan"
       }
     ]
   },
@@ -21,13 +21,13 @@
         "title": "Vietnamhaket Saluhallen Briggen",
         "openingHours": "monday-sunday: 11:00–18:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-        "link": "/briggen"
+        "key": "briggen"
       },
       {
         "title": "Vietnamhaket Barnhusgatan",
         "openingHours": "monday-sunday: 11:00-21:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-        "link": "/barnhusgatan"
+        "key": "barnhusgatan"
       }
     ]
   }

@@ -1,17 +1,18 @@
 import React from 'react'
 import ChangeLanguageButton from './ChangeLanguageButton'
 import Languages from '../../data/Languages'
+import ButtonGroup from 'antd/lib/button/button-group'
 
-const ChangeLanguage = props => {
+const ChangeLanguage = ({ selectedLanguage, setLanguage }) => {
   const changeLanguageButtons = Languages.map(language => (
     <ChangeLanguageButton
       key={language}
-      history={props.history}
-      selectedLanguage={props.selectedLanguage}
+      selectedLanguage={selectedLanguage}
       language={language}
+      setLanguage={setLanguage}
     />
   ))
-  return <div>{changeLanguageButtons}</div>
+  return <ButtonGroup>{changeLanguageButtons}</ButtonGroup>
 }
 
 export default ChangeLanguage

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-import Languages from '../../data/Languages'
+import Flags from '../../data/Flags'
 
 class ChangeLanguageButton extends React.Component {
   constructor(props) {
@@ -38,19 +38,13 @@ class ChangeLanguageButton extends React.Component {
     }
   }
   handleClick() {
-    const languagesRegex = new RegExp(`/(${Languages.join('|')})`)
-    this.props.history.push(
-      `/${window.location.pathname.replace(
-        languagesRegex,
-        this.props.language
-      )}`
-    )
+    this.props.setLanguage(this.props.language)
   }
   render() {
     return (
-      <Button onClick={this.handleClick}>{`${
-        this.state.selected ? 'Selected: ' : ''
-      }${this.props.language}`}</Button>
+      <Button type="link" onClick={this.handleClick}>
+        {Flags[this.props.language]}
+      </Button>
     )
   }
 }
