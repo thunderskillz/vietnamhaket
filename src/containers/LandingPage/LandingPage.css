@@ -1,6 +1,5 @@
 .landing-page {
-  height: 100vh;
-  padding: 16px;
+  height: 100%;
   background-image: url('../../background-xs.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -22,11 +21,10 @@
   display: flex;
   flex-direction: column;
   flex: auto;
-  border: 4px double #890000;
   padding: 16px;
 }
 
 .landing-page-logo {
   width: 100%;
-  padding: 40% 0 32px 0;
+  padding: 24px 0;
 }
