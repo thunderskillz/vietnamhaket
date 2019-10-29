@@ -39,7 +39,7 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
             />
           </Col>
         </Row>
-        <Row type="flex" justify="center" gutter={[16, 16]}>
+        <Row type="flex" justify="center">
           <Col>
             <img className="landing-page-logo" src={logo} alt="logo" />
           </Col>
