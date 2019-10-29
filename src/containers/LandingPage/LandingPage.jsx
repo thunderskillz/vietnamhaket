@@ -30,29 +30,27 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
   )
   return (
     <Layout className="landing-page">
-      <div className="page-content">
-        <Content>
-          <Row type="flex" justify="end" gutter={[16, 16]}>
-            <Col>
-              <ChangeLanguage
-                selectedLanguage={language}
-                setLanguage={setLanguage}
-              />
-            </Col>
-          </Row>
-          <Row type="flex" justify="center" gutter={[16, 16]}>
-            <Col>
-              <img className="landing-page-logo" src={logo} alt="logo" />
-            </Col>
-          </Row>
-          <Row type="flex" justify="center" gutter={[16, 16]}>
-            {restaurants}
-          </Row>
-        </Content>
-        <Footer>
-          <FooterContent />
-        </Footer>
-      </div>
+      <Content style={{ padding: 16 }}>
+        <Row type="flex" justify="end" gutter={[16, 16]}>
+          <Col>
+            <ChangeLanguage
+              selectedLanguage={language}
+              setLanguage={setLanguage}
+            />
+          </Col>
+        </Row>
+        <Row type="flex" justify="center" gutter={[16, 16]}>
+          <Col>
+            <img className="landing-page-logo" src={logo} alt="logo" />
+          </Col>
+        </Row>
+        <Row type="flex" justify="center" gutter={[16, 16]}>
+          {restaurants}
+        </Row>
+      </Content>
+      <Footer>
+        <FooterContent />
+      </Footer>
     </Layout>
   )
 }
