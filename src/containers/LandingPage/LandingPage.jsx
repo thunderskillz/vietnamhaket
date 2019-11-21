@@ -31,14 +31,7 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
   return (
     <Layout className="landing-page">
       <Content style={{ padding: 16 }}>
-        <Row type="flex" justify="end" gutter={[16, 16]}>
-          <Col>
-            <ChangeLanguage
-              selectedLanguage={language}
-              setLanguage={setLanguage}
-            />
-          </Col>
-        </Row>
+        <ChangeLanguage selectedLanguage={language} setLanguage={setLanguage} />
         <Row type="flex" justify="center">
           <Col>
             <img className="landing-page-logo" src={logo} alt="logo" />

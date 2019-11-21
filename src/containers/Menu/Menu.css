@@ -1,0 +1,17 @@
+.extra-information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+}
+
+.description span {
+  padding: 4px 24px 4px 6px;
+}

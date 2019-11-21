@@ -17,7 +17,8 @@ module.exports = override(
       '@primary-color': '#890000',
       '@border-radius-base': '0px',
       '@border-radius-sm': '0px',
-      '@layout-body-background': 'none'
+      '@layout-body-background': 'none',
+      '@heading-color': '#890000'
     }
   })
 )

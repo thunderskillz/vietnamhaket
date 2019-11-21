@@ -1,6 +1,7 @@
 import React from 'react'
 import ChangeLanguageButton from './ChangeLanguageButton'
 import Languages from '../../data/Languages'
+import './ChangeLanguage.css'
 import ButtonGroup from 'antd/lib/button/button-group'
 
 const ChangeLanguage = ({ selectedLanguage, setLanguage }) => {
@@ -12,7 +13,11 @@ const ChangeLanguage = ({ selectedLanguage, setLanguage }) => {
       setLanguage={setLanguage}
     />
   ))
-  return <ButtonGroup>{changeLanguageButtons}</ButtonGroup>
+  return (
+    <div className="language">
+      <ButtonGroup>{changeLanguageButtons}</ButtonGroup>
+    </div>
+  )
 }
 
 export default ChangeLanguage

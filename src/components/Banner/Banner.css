@@ -1,0 +1,22 @@
+.ant-carousel .slick-slider img {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+  .ant-carousel .slick-slider img {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ant-carousel .slick-slider img {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ant-carousel .slick-slider img {
+    height: 800px;
+  }
+}
