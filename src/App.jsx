@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router, Route, Redirect, Switch } from 'react-router-dom'
+import Helmet from 'react-helmet'
 import history from './history'
 import './App.css'
 import LandingPage from './containers/LandingPage/LandingPage'
@@ -39,6 +40,7 @@ class App extends React.Component {
     const restaurantsURLPath = `(${Restaurants.join('|')})`
     return (
       <Router history={history}>
+        <Helmet htmlAttributes={{ lang: this.state.language }} />
         <Switch>
           <Route exact path="/">
             <Redirect to={`/${this.state.language}`} />
