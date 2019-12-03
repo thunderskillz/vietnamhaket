@@ -18,7 +18,11 @@ const DefaultPage = ({ language, setLanguage, restaurant }) => {
         <Row type="flex" justify="center">
           <Col>
             <Link to={`/${language}`}>
-              <img className="default-page-logo" src={logo} alt="logo" />
+              <img
+                className="default-page-logo"
+                src={logo}
+                alt="Vietnamhaket"
+              />
             </Link>
           </Col>
         </Row>

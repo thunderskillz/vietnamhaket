@@ -24,20 +24,20 @@ const Xl = ({ children }) => {
 const Banner = ({ restaurant }) => {
   const restaurantImages = Images[restaurant]
   const carouselImages = restaurantImages.map((path, index) => (
-    <>
+    <React.Fragment key={index}>
       <Sm>
-        <img key={index} src={`/images/sm/${path}`} alt="" />
+        <img src={`/images/sm/${path}`} alt="" />
       </Sm>
       <Md>
-        <img key={index} src={`/images/md/${path}`} alt="" />
+        <img src={`/images/md/${path}`} alt="" />
       </Md>
       <Lg>
-        <img key={index} src={`/images/lg/${path}`} alt="" />
+        <img src={`/images/lg/${path}`} alt="" />
       </Lg>
       <Xl>
-        <img key={index} src={`/images/xl/${path}`} alt="" />
+        <img src={`/images/xl/${path}`} alt="" />
       </Xl>
-    </>
+    </React.Fragment>
   ))
   return <Carousel autoplay>{carouselImages}</Carousel>
 }

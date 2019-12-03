@@ -14,7 +14,7 @@ class Menu extends React.Component {
       const icons = Object.keys(extraInformation)
         .filter(key => item.extra[key])
         .map(key => (
-          <li style={{ marginRight: '6px' }}>
+          <li key={key} style={{ marginRight: '6px' }}>
             <FontAwesomeIcon icon={extraInformation[key].icon} />
           </li>
         ))
@@ -61,7 +61,7 @@ class Menu extends React.Component {
       key => {
         const extra = extraInformation[key]
         return (
-          <div className="description">
+          <div key={key} className="description">
             <FontAwesomeIcon icon={extra.icon} />
             <span>{extra.description}</span>
           </div>

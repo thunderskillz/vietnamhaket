@@ -6,7 +6,6 @@ import { Icon, Row, Col } from 'antd'
 const Information = ({ language, restaurant }) => {
   const restaurantInformation = RestaurantInformation[language][restaurant]
   const currentDay = (new Date().getDay() - 1) % 7
-  console.log(currentDay)
   const openingHours = restaurantInformation.openingHours.days.map(
     ({ day, hours }, index) => (
       <li

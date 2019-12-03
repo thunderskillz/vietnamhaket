@@ -40,7 +40,17 @@ class App extends React.Component {
     const restaurantsURLPath = `(${Restaurants.join('|')})`
     return (
       <Router history={history}>
-        <Helmet htmlAttributes={{ lang: this.state.language }} />
+        <Helmet htmlAttributes={{ lang: this.state.language }}>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-153764980-1"
+          />
+          <script>
+            {
+              'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag("js", new Date()); gtag("config", "UA-153764980-1");'
+            }
+          </script>
+        </Helmet>
         <Switch>
           <Route exact path="/">
             <Redirect to={`/${this.state.language}`} />
