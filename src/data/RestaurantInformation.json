@@ -9,7 +9,7 @@
           { "day": "Onsdag", "hours": "11:00-18:00" },
           { "day": "Torsdag", "hours": "11:00-18:00" },
           { "day": "Fredag", "hours": "11:00-18:00" },
-          { "day": "Lördag", "hours": "11:00-15:00" },
+          { "day": "Lördag", "hours": "11:00-16:00" },
           { "day": "Söndag", "hours": "Stängt" }
         ]
       },
@@ -17,7 +17,7 @@
         "heading": "Kontakta oss",
         "address": "Nordhemsgatan 28, 413 06, Göteborg",
         "phone": "076-164 19 22",
-        "mail": "vietnamhaket@gmail.com"
+        "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
         "heading": "Om oss",
@@ -41,7 +41,7 @@
         "heading": "Kontakta oss",
         "address": "Barnhusgatan 1, 411 02, Göteborg",
         "phone": "076-182 60 93",
-        "mail": "vietnamhaket@gmail.com"
+        "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
         "heading": "Om oss",
@@ -59,7 +59,7 @@
           { "day": "Wednesday", "hours": "11:00-18:00" },
           { "day": "Thursday", "hours": "11:00-18:00" },
           { "day": "Friday", "hours": "11:00-18:00" },
-          { "day": "Saturday", "hours": "11:00-15:00" },
+          { "day": "Saturday", "hours": "11:00-16:00" },
           { "day": "Sunday", "hours": "Closed" }
         ]
       },
@@ -67,7 +67,7 @@
         "heading": "Contact us",
         "address": "Nordhemsgatan 28, 413 06, Gothenburg",
         "phone": "076-164 19 22",
-        "mail": "vietnamhaket@gmail.com"
+        "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
         "heading": "About us",
@@ -91,7 +91,7 @@
         "heading": "Contact us",
         "address": "Barnhusgatan 1, 411 02, Gothenburg",
         "phone": "076-182 60 93",
-        "mail": "vietnamhaket@gmail.com"
+        "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
         "heading": "About us",
