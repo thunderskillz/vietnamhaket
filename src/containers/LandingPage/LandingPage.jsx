@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../logo.png'
 import './LandingPage.css'
-import { Row, Col, Button, Layout } from 'antd'
+import { Row, Col, Button, Layout, Icon } from 'antd'
 import LandingPageInformation from '../../data/LandingPageInformation'
 import ChangeLanguage from '../../components/ChangeLanguage/ChangeLanguage'
 import FooterContent from '../../components/FooterContent/FooterContent'
@@ -23,6 +23,7 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
             onClick={handleSetRestaurant}
           >
             {restaurant.title}
+            <Icon type="arrow-right" />
           </Button>
         </Col>
       )
@@ -38,6 +39,7 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
           </Col>
         </Row>
         <Row type="flex" justify="center" gutter={[16, 16]}>
+          <h1>Välj restaurang</h1>
           {restaurants}
         </Row>
       </Content>

@@ -2,13 +2,13 @@
   "sv": {
     "restaurants": [
       {
-        "title": "Vietnamhaket Saluhallen Briggen",
+        "title": "Saluhallen Briggen",
         "openingHours": "måndag-söndag: 11:00–18:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
         "key": "briggen"
       },
       {
-        "title": "Vietnamhaket Barnhusgatan",
+        "title": "Barnhusgatan",
         "openingHours": "måndag-söndag: 11:00-21:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
         "key": "barnhusgatan"
@@ -18,13 +18,13 @@
   "en": {
     "restaurants": [
       {
-        "title": "Vietnamhaket Saluhallen Briggen",
+        "title": "Saluhallen Briggen",
         "openingHours": "monday-sunday: 11:00–18:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
         "key": "briggen"
       },
       {
-        "title": "Vietnamhaket Barnhusgatan",
+        "title": "Barnhusgatan",
         "openingHours": "monday-sunday: 11:00-21:00",
         "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
         "key": "barnhusgatan"
