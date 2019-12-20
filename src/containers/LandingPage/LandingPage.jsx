@@ -38,8 +38,8 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
             <img className="landing-page-logo" src={logo} alt="logo" />
           </Col>
         </Row>
+        <h1 style={{ textAlign: 'center' }}>Välj restaurang</h1>
         <Row type="flex" justify="center" gutter={[16, 16]}>
-          <h1>Välj restaurang</h1>
           {restaurants}
         </Row>
       </Content>
