@@ -1,0 +1,18 @@
+{
+  "sv": {
+    "briggen": "Saluhallen Briggen",
+    "barnhusgatan": "Barnhusgatan",
+    "chooseRestaurant": "Välj restaurang",
+    "menu": "Meny",
+    "contactUs": "Kontakt",
+    "openingHours": "Öppettider"
+  },
+  "en": {
+    "briggen": "Saluhallen Briggen",
+    "barnhusgatan": "Barnhusgatan",
+    "chooseRestaurant": "Choose restaurant",
+    "menu": "Menu",
+    "contactUs": "Contact us",
+    "openingHours": "Opening hours"
+  }
+}

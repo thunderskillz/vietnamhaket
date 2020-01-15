@@ -1,6 +1,7 @@
 import React from 'react'
 import './Menu.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import SiteText from '../../data/SiteText'
 import { ExtraInformation } from '../../data/ExtraInformation'
 import { Card, Col, Row } from 'antd'
 import Menus from '../../data/Menus'
@@ -8,6 +9,7 @@ import Meta from 'antd/lib/card/Meta'
 
 class Menu extends React.Component {
   render() {
+    const siteText = SiteText[this.props.language]
     const menu = Menus[this.props.language][this.props.restaurant]
     const extraInformation = ExtraInformation[this.props.language]
     const menuItems = menu.map(item => {
@@ -24,7 +26,7 @@ class Menu extends React.Component {
             key={item.title}
             style={{ height: '100%' }}
             bordered={false}
-            cover={<img alt={item.title} src={item.image} />}
+            cover={<img src={item.image} alt={item.title} />}
           >
             <Meta
               title={`${item.title}${
@@ -70,6 +72,9 @@ class Menu extends React.Component {
     )
     return (
       <div>
+        <h1 id="menu" style={{ textAlign: 'center' }}>
+          {siteText.menu}
+        </h1>
         <div className="extra-information">{extraInformationDescription}</div>
         <Row type="flex" gutter={[16, 16]}>
           {menuItems}

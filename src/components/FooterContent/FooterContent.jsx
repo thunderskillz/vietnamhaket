@@ -24,7 +24,7 @@ const FooterContent = () => {
       </Row>
       <Row type="flex" justify="center">
         <Col>
-          <span style={{ color: '#890000' }}>Vietnamhaket ©2019</span>
+          <span>Vietnamhaket ©{new Date().getFullYear()}</span>
         </Col>
       </Row>
     </div>

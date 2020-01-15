@@ -1,11 +1,14 @@
 import React from 'react'
+import SiteText from '../../data/SiteText'
 import RestaurantInformation from '../../data/RestaurantInformation'
 import './Information.css'
 import { Icon, Row, Col } from 'antd'
 
 const Information = ({ language, restaurant }) => {
+  const siteText = SiteText[language]
   const restaurantInformation = RestaurantInformation[language][restaurant]
-  const currentDay = (new Date().getDay() - 1) % 7
+  let currentDay = (new Date().getDay() - 1) % 7
+  currentDay = currentDay === -1 ? 6 : currentDay
   const openingHours = restaurantInformation.openingHours.days.map(
     ({ day, hours }, index) => (
       <li
@@ -17,9 +20,10 @@ const Information = ({ language, restaurant }) => {
   return (
     <div className="information">
       <h1 className="about">{restaurantInformation.aboutUs.description}</h1>
-      <Row type="flex" justify="center" gutter={[48, 48]}>
+      <Row type="flex" justify="center" gutter={[0, 48]}>
         <Col xs={24} md={12}>
           <div
+            id="contactUs"
             style={{
               display: 'flex',
               flexDirection: 'column',
@@ -28,9 +32,7 @@ const Information = ({ language, restaurant }) => {
           >
             <ul style={{ padding: '0', margin: '0', listStyle: 'none' }}>
               <li>
-                <h1 style={{ textAlign: 'center' }}>
-                  {restaurantInformation.contactUs.heading}
-                </h1>
+                <h1 style={{ textAlign: 'center' }}>{siteText.contactUs}</h1>
               </li>
               <li>
                 <Icon type="compass" style={{ marginRight: '6px' }} />
@@ -59,6 +61,7 @@ const Information = ({ language, restaurant }) => {
         </Col>
         <Col xs={24} md={12}>
           <div
+            id="openingHours"
             style={{
               display: 'flex',
               flexDirection: 'column',
@@ -67,9 +70,7 @@ const Information = ({ language, restaurant }) => {
           >
             <ul style={{ padding: '0', margin: '0', listStyle: 'none' }}>
               <li>
-                <h1 style={{ textAlign: 'center' }}>
-                  {restaurantInformation.openingHours.heading}
-                </h1>
+                <h1 style={{ textAlign: 'center' }}>{siteText.openingHours}</h1>
               </li>
               {openingHours}
             </ul>
