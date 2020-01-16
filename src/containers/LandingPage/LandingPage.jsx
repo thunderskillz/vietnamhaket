@@ -39,6 +39,24 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
             <img className="landing-page-logo" src={logo} alt="Vietnamhaket" />
           </Col>
         </Row>
+        <Row type="flex" justify="center">
+          <Col xs={24} md={12}>
+            <h1 style={{ textAlign: 'center', fontWeight: '300' }}>
+              {siteText.aboutUsHeading}
+            </h1>
+            <h2
+              style={{
+                textAlign: 'center',
+                fontSize: '1em',
+                fontWeight: '300',
+                fontStyle: 'italic',
+                marginBottom: '32px'
+              }}
+            >
+              {siteText.aboutUsSubHeading}
+            </h2>
+          </Col>
+        </Row>
         <h1 style={{ textAlign: 'center' }}>{siteText.chooseRestaurant}</h1>
         <Row type="flex" justify="center" gutter={[16, 16]}>
           {restaurants}

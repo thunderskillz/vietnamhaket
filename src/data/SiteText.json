@@ -5,7 +5,9 @@
     "chooseRestaurant": "Välj restaurang",
     "menu": "Meny",
     "contactUs": "Kontakt",
-    "openingHours": "Öppettider"
+    "openingHours": "Öppettider",
+    "aboutUsHeading": "Vietnamesisk restaurang i Göteborg",
+    "aboutUsSubHeading": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\""
   },
   "en": {
     "briggen": "Saluhallen Briggen",
@@ -13,6 +15,8 @@
     "chooseRestaurant": "Choose restaurant",
     "menu": "Menu",
     "contactUs": "Contact us",
-    "openingHours": "Opening hours"
+    "openingHours": "Opening hours",
+    "aboutUsHeading": "Vietnamese restaurant in Gothenburg",
+    "aboutUsSubHeading": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\""
   }
 }
