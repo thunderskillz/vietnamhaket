@@ -1,4 +1,5 @@
 import React from 'react'
+import { gaEvent } from '../../components/Tracking/Tracking'
 import logo from '../../logo.png'
 import './LandingPage.css'
 import { Row, Col, Button, Layout, Icon } from 'antd'
@@ -13,6 +14,7 @@ const LandingPage = ({ language, setLanguage, setRestaurant }) => {
   const restaurants = Restaurants.map(restaurant => {
     const handleSetRestaurant = () => {
       setRestaurant(restaurant)
+      gaEvent('Home page', 'Selected restaurant', restaurant)
     }
     const name = siteText[restaurant]
     return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import { gaEvent } from '../../components/Tracking/Tracking'
 import { Link } from 'react-router-dom'
 import logo from '../../logo.png'
 import './DefaultPage.css'
@@ -18,7 +19,10 @@ const DefaultPage = ({ language, setLanguage, restaurant }) => {
         <ChangeLanguage selectedLanguage={language} setLanguage={setLanguage} />
         <Row type="flex" justify="center">
           <Col>
-            <Link to={`/${language}`}>
+            <Link
+              to={`/${language}`}
+              onClick={() => gaEvent('Restaurant page', 'Navigation', 'Home')}
+            >
               <img
                 className="default-page-logo"
                 src={logo}
@@ -41,7 +45,9 @@ const DefaultPage = ({ language, setLanguage, restaurant }) => {
       <Footer style={{ textAlign: 'center' }}>
         <FooterContent />
       </Footer>
-      <BackTop />
+      <BackTop
+        onClick={() => gaEvent('Restaurant page', 'Navigation', 'Back to top')}
+      />
     </Layout>
   )
 }

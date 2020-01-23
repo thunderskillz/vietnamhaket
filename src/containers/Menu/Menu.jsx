@@ -29,7 +29,7 @@ class Menu extends React.Component {
             cover={<img src={item.image} alt={item.title} />}
           >
             <Meta
-              title={`${item.title}${
+              title={`${item.number}. ${item.title}${
                 item.shortDescription.length > 0
                   ? ` - ${item.shortDescription}`
                   : ''

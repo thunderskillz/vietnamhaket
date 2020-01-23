@@ -1,4 +1,5 @@
 import React from 'react'
+import { gaEvent } from '../../components/Tracking/Tracking'
 import { Button } from 'antd'
 import Flags from '../../data/Flags'
 
@@ -39,6 +40,7 @@ class ChangeLanguageButton extends React.Component {
   }
   handleClick() {
     this.props.setLanguage(this.props.language)
+    gaEvent('All', 'Language', this.props.language)
   }
   render() {
     return (
