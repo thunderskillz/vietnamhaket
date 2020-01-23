@@ -8,10 +8,10 @@ export const gaPageView = () => {
   ReactGA.pageview(window.location.pathname + window.location.search)
 }
 
-export const gaEvent = (category, action, value) => {
+export const gaEvent = (category, action, label) => {
   ReactGA.event({
     category: category,
     action: action,
-    value: value
+    label: label
   })
 }
