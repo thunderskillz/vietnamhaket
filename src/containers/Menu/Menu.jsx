@@ -26,7 +26,7 @@ class Menu extends React.Component {
             key={item.title}
             style={{ height: '100%' }}
             bordered={false}
-            cover={<img src={item.image} alt={item.title} />}
+            cover={<img src={`/images/food/${item.image}`} alt={item.title} />}
           >
             <Meta
               title={`${item.number}. ${item.title}${
