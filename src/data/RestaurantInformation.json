@@ -24,13 +24,13 @@
     "barnhusgatan": {
       "openingHours": {
         "days": [
-          { "day": "Måndag", "hours": "11:00-21:00" },
-          { "day": "Tisdag", "hours": "11:00-21:00" },
-          { "day": "Onsdag", "hours": "11:00-21:00" },
-          { "day": "Torsdag", "hours": "11:00-21:00" },
-          { "day": "Fredag", "hours": "11:00-21:00" },
-          { "day": "Lördag", "hours": "11:00-21:00" },
-          { "day": "Söndag", "hours": "11:00-21:00" }
+          { "day": "Måndag", "hours": "11:00-19:00" },
+          { "day": "Tisdag", "hours": "11:00-19:00" },
+          { "day": "Onsdag", "hours": "11:00-19:00" },
+          { "day": "Torsdag", "hours": "11:00-19:00" },
+          { "day": "Fredag", "hours": "11:00-19:00" },
+          { "day": "Lördag", "hours": "11:00-19:00" },
+          { "day": "Söndag", "hours": "11:00-19:00" }
         ]
       },
       "contactUs": {
@@ -39,7 +39,8 @@
         "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
-        "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\""
+        "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\"",
+        "warning": "På grund av situationen med Covid-19 stänger restaurangen två timmar tidigare, vid 19:00 istället för 21:00"
       }
     }
   },
@@ -68,13 +69,13 @@
     "barnhusgatan": {
       "openingHours": {
         "days": [
-          { "day": "Monday", "hours": "11:00-21:00" },
-          { "day": "Tuesday", "hours": "11:00-21:00" },
-          { "day": "Wednesday", "hours": "11:00-21:00" },
-          { "day": "Thursday", "hours": "11:00-21:00" },
-          { "day": "Friday", "hours": "11:00-21:00" },
-          { "day": "Saturday", "hours": "11:00-21:00" },
-          { "day": "Sunday", "hours": "11:00-21:00" }
+          { "day": "Monday", "hours": "11:00-19:00" },
+          { "day": "Tuesday", "hours": "11:00-19:00" },
+          { "day": "Wednesday", "hours": "11:00-19:00" },
+          { "day": "Thursday", "hours": "11:00-19:00" },
+          { "day": "Friday", "hours": "11:00-19:00" },
+          { "day": "Saturday", "hours": "11:00-19:00" },
+          { "day": "Sunday", "hours": "11:00-19:00" }
         ]
       },
       "contactUs": {
@@ -83,7 +84,8 @@
         "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
-        "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\""
+        "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\"",
+        "warning": "Because of the situation with Covid-19 the restaurant closes two hours earlier, at 19:00 instead of 21:00"
       }
     }
   }

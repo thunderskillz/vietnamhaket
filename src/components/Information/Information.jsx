@@ -7,6 +7,11 @@ import { Icon, Row, Col } from 'antd'
 const Information = ({ language, restaurant }) => {
   const siteText = SiteText[language]
   const restaurantInformation = RestaurantInformation[language][restaurant]
+  const warning = restaurantInformation.aboutUs.warning ? (
+    <h2 className="about-warning">{restaurantInformation.aboutUs.warning}</h2>
+  ) : (
+    ''
+  )
   let currentDay = (new Date().getDay() - 1) % 7
   currentDay = currentDay === -1 ? 6 : currentDay
   const openingHours = restaurantInformation.openingHours.days.map(
@@ -20,6 +25,7 @@ const Information = ({ language, restaurant }) => {
   return (
     <div className="information">
       <h1 className="about">{restaurantInformation.aboutUs.description}</h1>
+      {warning}
       <Row type="flex" justify="center" gutter={[0, 48]}>
         <Col xs={24} md={12}>
           <div
