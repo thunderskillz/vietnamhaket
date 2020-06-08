@@ -3,6 +3,7 @@ import './Menu.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SiteText from '../../data/SiteText'
 import { ExtraInformation } from '../../data/ExtraInformation'
+import RestaurantInformation from '../../data/RestaurantInformation'
 import { Card, Col, Row } from 'antd'
 import Menus from '../../data/Menus'
 import Meta from 'antd/lib/card/Meta'
@@ -12,10 +13,19 @@ class Menu extends React.Component {
     const siteText = SiteText[this.props.language]
     const menu = Menus[this.props.language][this.props.restaurant]
     const extraInformation = ExtraInformation[this.props.language]
-    const menuItems = menu.map(item => {
+    const restaurantInformation =
+      RestaurantInformation[this.props.language][this.props.restaurant]
+    const menuInformation = restaurantInformation.menu.menuInformation ? (
+      <h4 style={{ textAlign: 'center' }}>
+        {restaurantInformation.menu.menuInformation}
+      </h4>
+    ) : (
+      ''
+    )
+    const menuItems = menu.map((item) => {
       const icons = Object.keys(extraInformation)
-        .filter(key => item.extra[key])
-        .map(key => (
+        .filter((key) => item.extra[key])
+        .map((key) => (
           <li key={key} style={{ marginRight: '6px' }}>
             <FontAwesomeIcon icon={extraInformation[key].icon} />
           </li>
@@ -60,7 +70,7 @@ class Menu extends React.Component {
       )
     })
     const extraInformationDescription = Object.keys(extraInformation).map(
-      key => {
+      (key) => {
         const extra = extraInformation[key]
         return (
           <div key={key} className="description">
@@ -76,6 +86,7 @@ class Menu extends React.Component {
           {siteText.menu}
         </h1>
         <div className="extra-information">{extraInformationDescription}</div>
+        {menuInformation}
         <Row type="flex" gutter={[16, 16]}>
           {menuItems}
         </Row>

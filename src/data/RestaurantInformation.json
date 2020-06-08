@@ -19,6 +19,9 @@
       },
       "aboutUs": {
         "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\""
+      },
+      "menu": {
+        "menuInformation": "Vi har fullständiga rättigheter för öl- och vinservering"
       }
     },
     "barnhusgatan": {
@@ -41,7 +44,8 @@
       "aboutUs": {
         "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\"",
         "warning": "På grund av situationen med Covid-19 stänger restaurangen två timmar tidigare, vid 19:00 istället för 21:00"
-      }
+      },
+      "menu": {}
     }
   },
   "en": {
@@ -64,6 +68,9 @@
       },
       "aboutUs": {
         "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\""
+      },
+      "menu": {
+        "menuInformation": "Vi har complete rights to serve beer and wine"
       }
     },
     "barnhusgatan": {
@@ -86,7 +93,8 @@
       "aboutUs": {
         "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\"",
         "warning": "Because of the situation with Covid-19 the restaurant closes two hours earlier, at 19:00 instead of 21:00"
-      }
+      },
+      "menu": {}
     }
   }
 }
