@@ -8,7 +8,7 @@
           { "day": "Onsdag", "hours": "11:00-18:00" },
           { "day": "Torsdag", "hours": "11:00-18:00" },
           { "day": "Fredag", "hours": "11:00-18:00" },
-          { "day": "Lördag", "hours": "11:00-16:00" },
+          { "day": "Lördag", "hours": "11:00-15:00" },
           { "day": "Söndag", "hours": "Stängt" }
         ]
       },
@@ -18,7 +18,8 @@
         "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
-        "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\""
+        "description": "\"All mat här lagas med kärlek och vi gör allt för att våra gäster ska gå härifrån mätta och belåtna\"",
+        "warning": "Tillfälligt har vi ändrat öppettiderna på lördagar till 11:00-15:00"
       },
       "menu": {
         "menuInformation": "Vi har fullständiga rättigheter för öl- och vinservering"
@@ -57,7 +58,7 @@
           { "day": "Wednesday", "hours": "11:00-18:00" },
           { "day": "Thursday", "hours": "11:00-18:00" },
           { "day": "Friday", "hours": "11:00-18:00" },
-          { "day": "Saturday", "hours": "11:00-16:00" },
+          { "day": "Saturday", "hours": "11:00-15:00" },
           { "day": "Sunday", "hours": "Closed" }
         ]
       },
@@ -67,7 +68,8 @@
         "mail": "vietnamhaketab@gmail.com"
       },
       "aboutUs": {
-        "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\""
+        "description": "\"All the food here is cooked with love and we do everything for our guests to leave here satisfied\"",
+        "warning": "We have temporarily adjusted the opening hours on Saturdays to 11:00-15:00"
       },
       "menu": {
         "menuInformation": "Vi har complete rights to serve beer and wine"

@@ -30,6 +30,9 @@ class Menu extends React.Component {
             <FontAwesomeIcon icon={extraInformation[key].icon} />
           </li>
         ))
+      const description = `${item.longDescription} ${
+        item.protein.length > 0 ? `(${item.protein.join('/')})` : ''
+      }`
       return (
         <Col key={item.title} xs={24} sm={12} md={8} xl={6} xxl={4}>
           <Card
@@ -44,7 +47,7 @@ class Menu extends React.Component {
                   ? ` - ${item.shortDescription}`
                   : ''
               }`}
-              description={item.longDescription}
+              description={description}
               style={{ height: '100%' }}
             />
             <ul

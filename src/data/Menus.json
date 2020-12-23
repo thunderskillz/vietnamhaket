@@ -429,23 +429,6 @@
         }
       },
       {
-        "image": "bun_ca.jpg",
-        "number": "12",
-        "title": "Bun Ca",
-        "longDescription": "Grillad pangasiusfiskfilé, nudelsallad, dill, jordnötter och vår hemmagjorda fisksås.",
-        "shortDescription": "Grillad pangasiusfisk",
-        "protein": [],
-        "price": "110 kr",
-        "extra": {
-          "recommended": false,
-          "gluten": false,
-          "nuts": true,
-          "popular": false,
-          "cold": false,
-          "new": false
-        }
-      },
-      {
         "image": "banh_mi.jpg",
         "number": "13",
         "title": "Banh Mi",
@@ -665,23 +648,6 @@
           "recommended": false,
           "gluten": true,
           "nuts": false,
-          "popular": false,
-          "cold": false,
-          "new": false
-        }
-      },
-      {
-        "image": "bun_ca.jpg",
-        "number": "12",
-        "title": "Bun Ca",
-        "longDescription": "Grilled pangasius fish fillet, noodle salad, dill, peanuts and our home made fish sauce.",
-        "shortDescription": "Grilled pangasius fish",
-        "protein": [],
-        "price": "110 kr",
-        "extra": {
-          "recommended": false,
-          "gluten": false,
-          "nuts": true,
           "popular": false,
           "cold": false,
           "new": false
