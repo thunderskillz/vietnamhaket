@@ -70,7 +70,7 @@
           "Fläsk & Kyckling",
           "Kyckling",
           "Räkor",
-          "Tofu"
+          "Vegetarisk"
         ],
         "price": "110 kr",
         "extra": {
@@ -354,7 +354,7 @@
           "Fläsk & Kyckling",
           "Kyckling",
           "Räkor",
-          "Tofu"
+          "Vegetarisk"
         ],
         "price": "120 kr",
         "extra": {
@@ -520,7 +520,7 @@
           "Kyckling",
           "Vegetarisk"
         ],
-        "price": "90 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -623,7 +623,7 @@
           "Pork & Chicken",
           "Chicken",
           "Shrimps",
-          "Tofu"
+          "Vegetarian"
         ],
         "price": "110 kr",
         "extra": {
@@ -890,7 +890,7 @@
           "Pork & Chicken",
           "Chicken",
           "Shrimps",
-          "Tofu"
+          "Vegetarian"
         ],
         "price": "120 kr",
         "extra": {
@@ -1073,7 +1073,7 @@
           "Chicken",
           "Vegetarian"
         ],
-        "price": "90 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
