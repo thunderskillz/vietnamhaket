@@ -7,7 +7,11 @@
         "title": "Pho",
         "longDescription": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
         "shortDescription": "Vietnamesisk nudelsoppa",
-        "protein": ["Biff", "Kyckling", "Tofu"],
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": true,
@@ -41,7 +45,11 @@
         "title": "Bun Bo Xao",
         "longDescription": "Vietnamesisk nudelsallad med rostad lök, krossade jordnötter, färsk koriander, mynta och fisksås.",
         "shortDescription": "Nudelsallad",
-        "protein": ["Biff", "Kyckling", "Tofu"],
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -58,7 +66,12 @@
         "title": "Banh Xep",
         "longDescription": "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
         "shortDescription": "Dumplings (8st)",
-        "protein": ["Fläsk & Kyckling", "Kyckling", "Räkor", "Tofu"],
+        "protein": [
+          "Fläsk & Kyckling",
+          "Kyckling",
+          "Räkor",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -75,7 +88,11 @@
         "title": "Pho Xao",
         "longDescription": "Wokade risnudlar, färska grönsaker, rostad lök.",
         "shortDescription": "Wokade risnudlar",
-        "protein": ["Biff", "Kyckling", "Vegetarisk"],
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -92,7 +109,11 @@
         "title": "Nem Cuon",
         "longDescription": "Färska vårrullar med risnudlar, sallad, ägg, räkor, fläskkarré och färska örter lindat i rispapper. Serveras med vår hemmagjorda fisksås. 3 st.",
         "shortDescription": "Färska vårrullar (3 stora rullar)",
-        "protein": ["Fläsk & Räkor", "Räkor", "Vegetarisk"],
+        "protein": [
+          "Fläsk & Räkor",
+          "Räkor",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -109,7 +130,12 @@
         "title": "Banh Xeo",
         "longDescription": "Krispig vietnamesisk pannkaka med wokade grönsaker. Serveras med vår hemmagjorda fisksås.",
         "shortDescription": "Vietnamesisk pannkaka",
-        "protein": ["Fläskkarré", "Kyckling", "Räkor", "Vegetarisk"],
+        "protein": [
+          "Fläskkarré",
+          "Kyckling",
+          "Räkor",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -126,7 +152,10 @@
         "title": "Xoi",
         "longDescription": "Vietnamesiskt ångkokat klibbris med kyckling, jordnötter, rostad lök och riven kokos.",
         "shortDescription": "Vietnamesiskt klibbris",
-        "protein": ["Kyckling", "Vegetarisk"],
+        "protein": [
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -143,7 +172,10 @@
         "title": "Com Rang",
         "longDescription": "Stekt ris, currykyckling, grönsaker och rostad lök.",
         "shortDescription": "Stekt ris",
-        "protein": ["Kyckling", "Vegetarisk"],
+        "protein": [
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -177,7 +209,12 @@
         "title": "Mien Xao",
         "longDescription": "Wokade glasnudlar, färska grönsaker och rostad lök.",
         "shortDescription": "Wokade glasnudlar med räkor",
-        "protein": ["Räkor", "Biff", "Kyckling", "Vegetarisk"],
+        "protein": [
+          "Räkor",
+          "Biff",
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -211,7 +248,11 @@
         "title": "Banh Mi",
         "longDescription": "Vietnamesisk baguette, sallad, gurka, chilisås, rostad lök, färsk koriander.",
         "shortDescription": "Vietnamesisk baguette",
-        "protein": ["Fläsk", "Kyckling", "Vegetarisk"],
+        "protein": [
+          "Fläsk",
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "90 kr",
         "extra": {
           "recommended": false,
@@ -228,7 +269,10 @@
         "title": "Com Thit Nuong",
         "longDescription": "Ris med sallad och stekt ankbröst/fläskkarré",
         "shortDescription": "",
-        "protein": ["Ankbröst", "Fläskkarré"],
+        "protein": [
+          "Ankbröst",
+          "Fläskkarré"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -247,8 +291,12 @@
         "title": "Pho",
         "longDescription": "Rykande het nudelsoppa med böngroddar, tunt skivad lök, vårlök, färsk koriander, chili och lime.",
         "shortDescription": "Vietnamesisk nudelsoppa",
-        "protein": ["Biff", "Kyckling", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": true,
           "gluten": false,
@@ -265,7 +313,7 @@
         "longDescription": "Hemmagjorda friterade vårrullar med fläskkarré, färsk koriander och mynta på en bädd av nudelsallad och fisksås.",
         "shortDescription": "Friterade vårrullar",
         "protein": [],
-        "price": "110 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": true,
           "gluten": true,
@@ -281,8 +329,12 @@
         "title": "Bun Bo Xao",
         "longDescription": "Vietnamesisk nudelsallad med rostad lök, krossade jordnötter, färsk koriander, mynta och fisksås.",
         "shortDescription": "Nudelsallad",
-        "protein": ["Biff", "Kyckling", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -298,8 +350,13 @@
         "title": "Banh Xep",
         "longDescription": "Hemmagjorda vietnamesiska degknyten. Serveras med sallad, soja och sweet chilisås. 8 st.",
         "shortDescription": "Dumplings (8st)",
-        "protein": ["Fläsk & Kyckling", "Kyckling", "Räkor", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Fläsk & Kyckling",
+          "Kyckling",
+          "Räkor",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -315,8 +372,12 @@
         "title": "Pho Xao",
         "longDescription": "Wokade risnudlar, färska grönsaker, rostad lök.",
         "shortDescription": "Wokade risnudlar",
-        "protein": ["Biff", "Kyckling", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Biff",
+          "Kyckling",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -332,8 +393,12 @@
         "title": "Nem Cuon",
         "longDescription": "Färska vårrullar med risnudlar, sallad, ägg, räkor, fläskkarré och färska örter lindat i rispapper. Serveras med vår hemmagjorda fisksås. 3 st.",
         "shortDescription": "Färska vårrullar (3 stora rullar)",
-        "protein": ["Fläsk & Räkor", "Räkor", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Fläsk & Räkor",
+          "Räkor",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": false,
@@ -349,8 +414,13 @@
         "title": "Banh Xeo",
         "longDescription": "Krispig vietnamesisk pannkaka med wokade grönsaker. Serveras med vår hemmagjorda fisksås.",
         "shortDescription": "Vietnamesisk pannkaka",
-        "protein": ["Fläskkarré", "Kyckling", "Räkor", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Fläskkarré",
+          "Kyckling",
+          "Räkor",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -366,8 +436,11 @@
         "title": "Xoi",
         "longDescription": "Vietnamesiskt ångkokat klibbris med kyckling, jordnötter, rostad lök och riven kokos.",
         "shortDescription": "Vietnamesiskt klibbris",
-        "protein": ["Kyckling", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Kyckling",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -383,8 +456,11 @@
         "title": "Com Rang",
         "longDescription": "Stekt ris, currykyckling, grönsaker och rostad lök.",
         "shortDescription": "Stekt ris",
-        "protein": ["Kyckling", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Kyckling",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -401,7 +477,7 @@
         "longDescription": "Grillade fläskfärsbiffar och sauterat fläskkött med nudelsallad, färsk koriander, mynta, rostad lök, chili och vår hemmagjorda fisksås.",
         "shortDescription": "",
         "protein": [],
-        "price": "110 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -417,8 +493,13 @@
         "title": "Mien Xao",
         "longDescription": "Wokade glasnudlar, färska grönsaker och rostad lök.",
         "shortDescription": "Wokade glasnudlar med räkor",
-        "protein": ["Räkor", "Biff", "Kyckling", "Vegetarisk"],
-        "price": "110 kr",
+        "protein": [
+          "Räkor",
+          "Biff",
+          "Kyckling",
+          "Vegetarisk"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -434,7 +515,11 @@
         "title": "Banh Mi",
         "longDescription": "Vietnamesisk baguette, sallad, gurka, chilisås, rostad lök, färsk koriander.",
         "shortDescription": "Vietnamesisk baguette",
-        "protein": ["Fläsk", "Kyckling", "Vegetarisk"],
+        "protein": [
+          "Fläsk",
+          "Kyckling",
+          "Vegetarisk"
+        ],
         "price": "90 kr",
         "extra": {
           "recommended": false,
@@ -451,8 +536,11 @@
         "title": "Com Thit Nuong",
         "longDescription": "Ris med sallad och stekt ankbröst/fläskkarré",
         "shortDescription": "",
-        "protein": ["Ankbröst", "Fläskkarré"],
-        "price": "110 kr",
+        "protein": [
+          "Ankbröst",
+          "Fläskkarré"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": false,
@@ -472,7 +560,11 @@
         "title": "Pho",
         "longDescription": "Smoking hot noodle soup with bean sprouts, thinly sliced onions, spring onions, fresh cilantro, chili and lime.",
         "shortDescription": "Vietnamese noodle soup",
-        "protein": ["Beef", "Chicken", "Tofu"],
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": true,
@@ -506,7 +598,11 @@
         "title": "Bun Bo Xao",
         "longDescription": "Vietnamese noodle salad with roasted onions, crushed peanuts, fresh cilantro, mint leaves and fish sauce.",
         "shortDescription": "Noodle salad",
-        "protein": ["Beef", "Chicken", "Tofu"],
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -523,7 +619,12 @@
         "title": "Banh Xep",
         "longDescription": "Home made vietnamese dumpling. Served with salad, soy sauce and sweet chili sauce. 8 pcs.",
         "shortDescription": "Dumplings (8 pcs)",
-        "protein": ["Pork & Chicken", "Chicken", "Shrimps", "Tofu"],
+        "protein": [
+          "Pork & Chicken",
+          "Chicken",
+          "Shrimps",
+          "Tofu"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -540,7 +641,11 @@
         "title": "Pho Xao",
         "longDescription": "Fried rice noodles, fresh vegetables, roasted onions.",
         "shortDescription": "Fried rice noodles",
-        "protein": ["Beef", "Chicken", "Vegetarian"],
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -557,7 +662,11 @@
         "title": "Nem Cuon",
         "longDescription": "Fresh spring rolls with rice noodles, salad, eggs, shrimps, pork butt and fresh herbs wrapped in rice paper. Served with our home made fish sauce. 3 pcs.",
         "shortDescription": "Fresh spring rolls (3 large rolls)",
-        "protein": ["Pork & Shrimps", "Shrimps", "Vegetarian"],
+        "protein": [
+          "Pork & Shrimps",
+          "Shrimps",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -574,7 +683,12 @@
         "title": "Banh Xeo",
         "longDescription": "Crispy vietnamese pancake with fired vegetables. Served with our home mande fish sauce.",
         "shortDescription": "Vietnamese pancake",
-        "protein": ["Pork butt", "Chicken", "Shrimps", "Vegetarian"],
+        "protein": [
+          "Pork butt",
+          "Chicken",
+          "Shrimps",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -591,7 +705,10 @@
         "title": "Xoi",
         "longDescription": "Vietnamese steamed sticky rice with chicken, peanuts, roasted onions and grated coconut.",
         "shortDescription": "Vietnamese sticky rice",
-        "protein": ["Chicken", "Vegetarian"],
+        "protein": [
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -608,7 +725,10 @@
         "title": "Com Rang",
         "longDescription": "Fried rice, curry chicken, vegetables and roasted onions.",
         "shortDescription": "Fried rice",
-        "protein": ["Chicken", "Vegetarian"],
+        "protein": [
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -642,7 +762,12 @@
         "title": "Mien Xao",
         "longDescription": "Fried glass noodles, fresh vegetables and roasted onions.",
         "shortDescription": "Fried glass noodles with shrimps",
-        "protein": ["Shrimps", "Beef", "Chicken", "Vegetarian"],
+        "protein": [
+          "Shrimps",
+          "Beef",
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -659,7 +784,11 @@
         "title": "Banh Mi",
         "longDescription": "Vietnamese baguette, salad, cucumber, chili sauce, roasted onions, fresh cilantro.",
         "shortDescription": "Vietnamese baguette",
-        "protein": ["Pork", "Chicken", "Vegetarian"],
+        "protein": [
+          "Pork",
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "90 kr",
         "extra": {
           "recommended": false,
@@ -676,7 +805,10 @@
         "title": "Com Thit Nuong",
         "longDescription": "Rice with salad and fried duck breast/pork butt.",
         "shortDescription": "",
-        "protein": ["Duck breast", "Pork butt"],
+        "protein": [
+          "Duck breast",
+          "Pork butt"
+        ],
         "price": "110 kr",
         "extra": {
           "recommended": false,
@@ -695,8 +827,12 @@
         "title": "Pho",
         "longDescription": "Smoking hot noodle soup with bean sprouts, thinly sliced onions, spring onions, fresh cilantro, chili and lime.",
         "shortDescription": "Vietnamese noodle soup",
-        "protein": ["Beef", "Chicken", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": true,
           "gluten": false,
@@ -713,7 +849,7 @@
         "longDescription": "Home made deep-fried spring rolls with pork butt, fresh cilantro and mint leaves on a bed of noodle salad and fish sauce.",
         "shortDescription": "Deep-fried spring rolls",
         "protein": [],
-        "price": "110 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": true,
           "gluten": true,
@@ -729,8 +865,12 @@
         "title": "Bun Bo Xao",
         "longDescription": "Vietnamese noodle salad with roasted onions, crushed peanuts, fresh cilantro, mint leaves and fish sauce.",
         "shortDescription": "Noodle salad",
-        "protein": ["Beef", "Chicken", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -746,8 +886,13 @@
         "title": "Banh Xep",
         "longDescription": "Home made vietnamese dumpling. Served with salad, soy sauce and sweet chili sauce. 8 pcs.",
         "shortDescription": "Dumplings (8 pcs)",
-        "protein": ["Pork & Chicken", "Chicken", "Shrimps", "Tofu"],
-        "price": "110 kr",
+        "protein": [
+          "Pork & Chicken",
+          "Chicken",
+          "Shrimps",
+          "Tofu"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -763,8 +908,12 @@
         "title": "Pho Xao",
         "longDescription": "Fried rice noodles, fresh vegetables, roasted onions.",
         "shortDescription": "Fried rice noodles",
-        "protein": ["Beef", "Chicken", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Beef",
+          "Chicken",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -780,8 +929,12 @@
         "title": "Nem Cuon",
         "longDescription": "Fresh spring rolls with rice noodles, salad, eggs, shrimps, pork butt and fresh herbs wrapped in rice paper. Served with our home made fish sauce. 3 pcs.",
         "shortDescription": "Fresh spring rolls (3 large rolls)",
-        "protein": ["Pork & Shrimps", "Shrimps", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Pork & Shrimps",
+          "Shrimps",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": false,
@@ -797,8 +950,13 @@
         "title": "Banh Xeo",
         "longDescription": "Crispy vietnamese pancake with fired vegetables. Served with our home mande fish sauce.",
         "shortDescription": "Vietnamese pancake",
-        "protein": ["Pork butt", "Chicken", "Shrimps", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Pork butt",
+          "Chicken",
+          "Shrimps",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -814,8 +972,11 @@
         "title": "Xoi",
         "longDescription": "Vietnamese steamed sticky rice with chicken, peanuts, roasted onions and grated coconut.",
         "shortDescription": "Vietnamese sticky rice",
-        "protein": ["Chicken", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Chicken",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -831,8 +992,11 @@
         "title": "Com Rang",
         "longDescription": "Fried rice, curry chicken, vegetables and roasted onions.",
         "shortDescription": "Fried rice",
-        "protein": ["Chicken", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Chicken",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -849,7 +1013,7 @@
         "longDescription": "Grilled minced pork steaks and sautéed pork with noodle salad, fresh cilantro, mint leaves, roasted onions, chili and our home made fish sauce.",
         "shortDescription": "",
         "protein": [],
-        "price": "110 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -865,8 +1029,13 @@
         "title": "Mien Xao",
         "longDescription": "Fried glass noodles, fresh vegetables and roasted onions.",
         "shortDescription": "Fried glass noodles with shrimps",
-        "protein": ["Shrimps", "Beef", "Chicken", "Vegetarian"],
-        "price": "110 kr",
+        "protein": [
+          "Shrimps",
+          "Beef",
+          "Chicken",
+          "Vegetarian"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": true,
@@ -883,7 +1052,7 @@
         "longDescription": "Grilled pangasius fish fillet, noodle salad, dill, peanuts and our home made fish sauce.",
         "shortDescription": "Grilled pangasius fish",
         "protein": [],
-        "price": "110 kr",
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": false,
@@ -899,7 +1068,11 @@
         "title": "Banh Mi",
         "longDescription": "Vietnamese baguette, salad, cucumber, chili sauce, roasted onions, fresh cilantro.",
         "shortDescription": "Vietnamese baguette",
-        "protein": ["Pork", "Chicken", "Vegetarian"],
+        "protein": [
+          "Pork",
+          "Chicken",
+          "Vegetarian"
+        ],
         "price": "90 kr",
         "extra": {
           "recommended": false,
@@ -916,8 +1089,11 @@
         "title": "Com Thit Nuong",
         "longDescription": "Rice with salad and fried duck breast/pork butt.",
         "shortDescription": "",
-        "protein": ["Duck breast", "Pork butt"],
-        "price": "110 kr",
+        "protein": [
+          "Duck breast",
+          "Pork butt"
+        ],
+        "price": "120 kr",
         "extra": {
           "recommended": false,
           "gluten": false,
